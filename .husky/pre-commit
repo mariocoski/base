@@ -38,7 +38,6 @@ if ! grep -qE "$commit_regex" .git/COMMIT_EDITMSG && ! grep -qE "merge" .git/COM
     exit 1
 fi
 
-
 # regex to validate in commit message
 commit_regex='(P40-[0-9]+|Bump|merge|noticket)'
 error_message="
