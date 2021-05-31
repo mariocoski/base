@@ -1,7 +1,6 @@
 import express from "express";
+import { DEFAULT_PORT_NUMBER } from "./config";
 const app = express();
-
-export const DEFAULT_PORT_NUMBER: number = 3000;
 
 app.use("*", (_, res) => {
   res.send({
