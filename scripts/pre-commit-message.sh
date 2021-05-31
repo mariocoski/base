@@ -14,7 +14,7 @@ error_message="
 
 ${BRED}Please use semantic commit messages:${NC}
 
-<type>(<scope>): <subject>
+<type>(<scope>): <subject> (P40-<YOUR-JIRA-TICKET_NUMBER>)
 
 ${BRED}types:${NC}
 
@@ -43,11 +43,11 @@ fi
 commit_regex='(#P40-[0-9]+|Bump|merge|noticket)'
 error_message="
 
-<type>(<scope>): <subject>
+<type>(<scope>): <subject> (P40-<YOUR-JIRA-TICKET_NUMBER>)
 
 ${BRED}Your commit message is missing one of the following labels in the subject:${NC}
 
-- ${RED}#P40-1234${NC}: A Jira ticket number
+- ${RED}(P40-1234)${NC}: A Jira ticket number
 - ${RED}noticket${NC}: Only use this when there is no ticket for this commit
 - ${RED}merge${NC}: When want to commit a merge
 
