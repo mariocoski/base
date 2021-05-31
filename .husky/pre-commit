@@ -40,7 +40,7 @@ fi
 
 
 # regex to validate in commit message
-commit_regex='(#P40-[0-9]+|Bump|merge|noticket)'
+commit_regex='(P40-[0-9]+|Bump|merge|noticket)'
 error_message="
 
 <type>(<scope>): <subject> (P40-<YOUR-JIRA-TICKET_NUMBER>)
