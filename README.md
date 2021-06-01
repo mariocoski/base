@@ -15,4 +15,4 @@
 - when pre-released
 - when released
 
-5. Automatic changelog generation happens only in: "released" pipeline
+5. Automatic changelog generation happens only in: "released" pipeline.
