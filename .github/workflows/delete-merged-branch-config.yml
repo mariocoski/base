@@ -9,7 +9,7 @@ jobs:
       - name: delete branch
         uses: SvanBoxel/delete-merged-branch@main
         with:
-          exclude: [master, staging, production]
-          delete_closed_pr: true # delete a branch when PR is closed without merging
+          exclude: staging
+          delete_closed_pr: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
