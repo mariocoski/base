@@ -1,5 +1,0 @@
-exclude: 
-  - master
-  - staging
-  - production
-delete_closed_pr: true
