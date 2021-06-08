@@ -8,6 +8,9 @@
   "email": "kolajide@proximie.com",
   "onlyPublishWithReleaseLabel": true,
   "baseBranch": "production",
-  "prereleaseBranches": ["staging"]
+  "prereleaseBranches": ["staging"],
+  "next": {
+    "message": "stag"
+  }
 
 }
